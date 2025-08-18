@@ -36,10 +36,6 @@ Dentro da variável `Path`, adicione as seguintes entradas:
 
 ```
 %JAVA_HOME%\bin
-%ANDROID_HOME%\platform-tools
-%ANDROID_HOME%\emulator
-%ANDROID_HOME%\tools
-%ANDROID_HOME%\tools\bin
 ```
 
 > \[!WARNING]
