@@ -1,0 +1,10 @@
+{
+  "name": "app-root",
+  "private": true,
+  "scripts": {
+    "start": "cd app && npx react-native start --reset-cache",
+    "android": "cd app && npx react-native run-android",
+    "ios": "cd app && npx react-native run-ios",
+    "lint": "cd app && npx eslint ."
+  }
+}
