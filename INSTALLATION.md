@@ -42,7 +42,7 @@ Dentro da variável `Path`, adicione as seguintes entradas:
 %ANDROID_HOME%\tools\bin
 ```
 
-> ⚠️ **Atenção**:
+> \[!WARNING]
 > Após configurar, reinicie o terminal (ou o computador) para que as variáveis sejam aplicadas.
 > Você pode testar a instalação rodando:
 >
