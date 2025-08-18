@@ -1,34 +1,40 @@
-# networking-app
-App de networking
+# Networking App (sem nome)
 
-# Inicialização
+Aplicativo de networking para eventos e interações sociais.
 
-> Entre na pasta **app**
+## Inicialização do Projeto
 
-Comece instalando as dependências
+> Antes de começar, certifique-se de estar na pasta **app**
+
+### 1. Instalar dependências
 
 ```bash
 npm install
 ```
 
-Inicie o servidor Metro
+### 2. Iniciar o servidor Metro
 
 ```bash
 npm start
 ```
 
-Crie a build do app.
+### 3. Executar o app
 
-> Atenção: é importante estar com o celular conectado ou estar com o emulador ligado
+> Certifique-se de que um dispositivo físico esteja conectado ou que o emulador esteja rodando.
 
-*Para Android*
+**Android:**
 
 ```bash
 npx react-native run-android
 ```
 
-*Para IOS*
+**iOS:**
 
 ```bash
 npx react-native run-ios
 ```
+
+### Observações
+
+* Para iOS, é necessário ter um Mac com Xcode instalado.
+* Para Android, verifique se o **ANDROID\_HOME** está configurado e se o emulador ou dispositivo está autorizado.
