@@ -10,6 +10,7 @@ import Events from './src/screens/Events';
 import ModalEvent from './src/screens/ModalEvent';
 import Chat from './src/screens/Chat';
 import Profile from './src/screens/Profile';
+import Test from './src/screens/Test';
 
 const Stack = createNativeStackNavigator();
 
@@ -27,6 +28,7 @@ export default function App() {
         <Stack.Screen name="ModalEvent" component={ModalEvent} options={{ title: 'Modal de Evento' }} />
         <Stack.Screen name="Chat" component={Chat} options={{ title: 'Chat' }} />
         <Stack.Screen name="Profile" component={Profile} options={{ title: 'Perfil' }} />
+        <Stack.Screen name="Test" component={Test} options={{ title: 'Teste' }} />
       </Stack.Navigator>
     </NavigationContainer>
   );
